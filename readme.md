@@ -27,19 +27,23 @@ Database created and accessed via PGAdmin.
 Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/4
 PR Link: https://github.com/tabrezdn1/is601-homework10/pull/5
 
-2. **Profile field edge cases**: 
+2. **Password validation**:
+Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/14
+PR Link: https://github.com/tabrezdn1/is601-homework10/pull/15
+
+3. **Profile field edge cases**: 
 Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/6
 PR Link: https://github.com/tabrezdn1/is601-homework10/pull/7
 
-3. **Issue demonstrated in the instructor video**:
+4. **Issue demonstrated in the instructor video**:
 Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/2
 PR Link: https://github.com/tabrezdn1/is601-homework10/pull/3
 
-4. **Add normalization to user name**:
+5. **Add normalization to user name**:
 Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/8
 PR Link: https://github.com/tabrezdn1/is601-homework10/pull/10
 
-5. **Add normalization to email**:
+6. **Add normalization to email**:
 Issue Link: https://github.com/tabrezdn1/is601-homework10/issues/9
 PR Link: https://github.com/tabrezdn1/is601-homework10/pull/11
 
