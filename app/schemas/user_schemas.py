@@ -63,6 +63,10 @@ class UserBase(BaseModel):
             raise ValueError("Profile picture URL must point to a valid image file (JPEG, PNG).")
         return v
 
+    @validator('username', pre=True)
+    def normalize_username(cls, v):
+        return v.lower() if v else None
+
     class Config:
         json_schema_extra = {
             "description": "Base model for user information.",
