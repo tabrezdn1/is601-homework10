@@ -55,8 +55,10 @@ class UserBase(BaseModel):
     @validator('profile_picture_url', pre=True, always=True)
     def validate_profile_picture_url(cls, v):
         if v is None:
-            return v  # If the URL is optional, allow None values
+            return v
         parsed_url = urlparse(v)
+        if parsed_url.scheme != 'https':
+            raise ValueError("Profile picture URL must use HTTPS.")
         if not re.search(r"\.(jpg|jpeg|png)$", parsed_url.path):
             raise ValueError("Profile picture URL must point to a valid image file (JPEG, PNG).")
         return v
